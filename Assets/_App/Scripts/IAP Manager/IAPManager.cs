@@ -141,6 +141,11 @@ public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
         Debug.Log("OnInitializeFailed InitializationFailureReason:" + error);
     }
 
+    public void OnInitializeFailed(InitializationFailureReason error, string message)
+    {
+        
+    }
+
     public PurchaseProcessingResult ProcessPurchase(PurchaseEventArgs args)
     {
         bool validPurchase = true; // Presume valid for platforms with no R.V.
