@@ -16,7 +16,7 @@ public class IAPKey
     public const string PACK2_REGISTER = "game82_register_2";
     public const string PACK3_REGISTER = "game82_register_3";
     public const string PACK4_REGISTER = "game82_register_4";
-    public const string PACK5_REGISTER = "game82_register_4";
+    public const string PACK5_REGISTER = "game82_register_5";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener
